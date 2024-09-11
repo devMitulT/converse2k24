@@ -11,6 +11,9 @@ import VatsalMakwana from '../../team/aimemes/Aimemes_Vatsal.png';
 import AyushiKyada from '../../team/aimemes/aimemes_ayushi.png';
 import Dhruti from '../../team/faculty/Dhruti.png';
 import KrishnaD from '../../team/faculty/Dhruti.png';
+import avtar from '../../team/avtar/femaleA.png';
+import avtar1 from '../../team/avtar/maleA.png';
+
 
 
 function Aimemes() {
@@ -40,7 +43,7 @@ function Aimemes() {
                     <p>Dr. Dhruti Sharma</p>
                 </div>
                 <div className="image-card">
-                    <img src={Dhruti} alt="Coordinator 2" className="imagef" />
+                    <img src={avtar} alt="Coordinator 2" className="imagef" />
                     <p>Dr. Krishna Delvadiya</p>
                 </div>
                 
@@ -51,13 +54,14 @@ function Aimemes() {
         <div className="converse">
             <h1 className="heading">Student Event Heads</h1>
             <div className="image-grid">
-                <div className="image-card">
-                    <img src={RajKachhadiya} alt="Coordinator 1" className="imageh" />
-                    <p>Raj Kachhadiya</p>
-                </div>
+                
                 <div className="image-card">
                     <img src={MitulTariwala} alt="Coordinator 2" className="imageh" />
                     <p>Mitul Tariwala</p>
+                </div>
+                <div className="image-card">
+                    <img src={RajKachhadiya} alt="Coordinator 1" className="imageh" />
+                    <p>Raj Kachhadiya</p>
                 </div>
                
               
@@ -84,7 +88,7 @@ function Aimemes() {
                     <p>Ayushi Kyada</p>
                 </div>
                 <div className="image-card">
-                    <img src={RajKachhadiya} alt="Coordinator 5" className="imagev" />
+                    <img src={avtar1} alt="Coordinator 5" className="imagev" />
                     <p>Veer Patel</p>
                 </div>
                 

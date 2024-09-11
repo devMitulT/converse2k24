@@ -11,7 +11,7 @@ import ParthKachariya from '../../team/logohunti/ParthKachariya.png';
 import ParthRana from '../../team/logohunti/ParthRana.png';
 import ShasangThummar from '../../team/logohunti/ShasangThummar.png';
 import BhumikaPatel from '../../team/faculty/Bhumika.png';
-import PalakPatel from '../../team/faculty/Bhumika.png';
+import PalakPatel from '../../team/avtar/femaleA.png';
 
 
 
@@ -41,7 +41,7 @@ function LogoHunt() {
                     <p>Prof. Bhumika Patel</p>
                 </div>
                 <div className="image-card">
-                    <img src={BhumikaPatel} alt="Coordinator 2" className="imagef" />
+                    <img src={PalakPatel} alt="Coordinator 2" className="imagef" />
                     <p>Prof. Palak Patel</p>
                 </div>
                

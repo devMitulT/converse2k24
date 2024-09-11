@@ -13,6 +13,7 @@ import Rudraakhadela from '../../team/techdebate/7TECHDEBATE_Rudraakhadela.png';
 import Dhruti from '../../team/faculty/Dhruti.png';
 import MitaliDesai from '../../team/faculty/Dhruti.png';
 
+import avtar from '../../team/avtar/femaleA.png';
 
 function Techdebate() {
     return (<>
@@ -40,7 +41,7 @@ function Techdebate() {
                     <p>Dr. Dhruti Sharma</p>
                 </div>
                 <div className="image-card">
-                    <img src={Dhruti} alt="Coordinator 2" className="imagef" />
+                    <img src={avtar} alt="Coordinator 2" className="imagef" />
                     <p>Dr. Mitali Desai</p>
                 </div>
                

@@ -12,6 +12,7 @@ import RenishDhaduk from '../../team/webwave/Webwave_Renish.png';
 import DhruvItaliya from '../../team/webwave/DhruvItaliya.png';
 import Vivek from '../../team/faculty/mukesh.png';
 import Mitul from '../../team/faculty/mukesh.png';
+import avtar from '../../team/avtar/maleA.png';
 
 
 function Webwave() {
@@ -36,11 +37,11 @@ function Webwave() {
             <h1 className="heading">Faculty Event Heads</h1>
             <div className="image-grid">
                 <div className="image-card">
-                    <img src={Vivek} alt="Coordinator 1" className="imagef" />
+                    <img src={avtar} alt="Coordinator 1" className="imagef" />
                     <p>Prof. Vivek Chapaneria</p>
                 </div>
                 <div className="image-card">
-                    <img src={Mitul} alt="Coordinator 2" className="imagef" />
+                    <img src={avtar} alt="Coordinator 2" className="imagef" />
                     <p>Prof. Mitul Patel</p>
                 </div>
                 

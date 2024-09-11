@@ -13,6 +13,7 @@ import ShrutiGajera from '../../team/codathon/Shruti.png';
 import Ashish from '../../team/faculty/Ashish.png';
 import Apurva from '../../team/faculty/Apurv.png';
 import Mitul from '../../team/faculty/Apurv.png';
+import avtar from '../../team/avtar/maleA.png';
 
 function Codathon() {
     return (<>
@@ -44,7 +45,7 @@ function Codathon() {
                     <p>Prof. Apurva M.</p>
                 </div>
                 <div className="image-card">
-                    <img src={Apurva} alt="Coordinator 2" className="imagef" />
+                    <img src={avtar} alt="Coordinator 2" className="imagef" />
                     <p>Prof. Mitul Patel</p>
                 </div>
               
