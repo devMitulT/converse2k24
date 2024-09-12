@@ -38,9 +38,7 @@ const HomePage = () => {
             <p className='tilaks'>EXPLORE THE FEST</p>
 
             <ul className='menu'>
-              <li>
-                <Link to='/aboutpage'>ABOUT</Link>
-              </li>
+              
               <li>
                 <Link to='/events'>EVENTS</Link>
               </li>
@@ -49,6 +47,9 @@ const HomePage = () => {
               </li>
               <li>
                 <Link to='/team'>TEAMS</Link>
+              </li>
+              <li>
+                <Link to='/aboutpage'>ABOUT</Link>
               </li>
               {/* <li><Link to="/sponsors" >SPONSORS</Link></li> */}
             </ul>
