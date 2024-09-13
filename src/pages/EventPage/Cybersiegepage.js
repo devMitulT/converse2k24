@@ -1,8 +1,8 @@
 import React from 'react';
 import './LogoHuntPage.css'; // Import the CSS file for styling
 import Footer from '../../components/Footer';
-import great from "./great.png";
-import { Link,useNavigate  } from "react-router-dom";
+import great from './great.png';
+import { Link, useNavigate } from 'react-router-dom';
 import ScrollToTop from '../../components/ScrollToTop';
 import Cybersiege from '../../team/Tech-poster/a4cybersiege.jpg';
 
@@ -12,78 +12,97 @@ const Cybersiegepage = () => {
   const handleButtonClick = (event) => {
     navigate('/register', { state: { event } });
   };
-    return (
-      <>
-        <ScrollToTop />
-        <div className="teams-section">
-          <div className='lin'>
-            <h1><Link to="/">Home</Link></h1>
-            <img src={great} className='symb' />
-            <h1><Link to="/events">Events</Link></h1>
-            <img src={great} className='symb' />
-            <h1><Link to="/tech-event">Tech</Link></h1>
+  return (
+    <>
+      <ScrollToTop />
+      <div className='teams-section'>
+        <div className='lin'>
+          <h1>
+            <Link to='/'>Home</Link>
+          </h1>
+          <img src={great} className='symb' />
+          <h1>
+            <Link to='/events'>Events</Link>
+          </h1>
+          <img src={great} className='symb' />
+          <h1>
+            <Link to='/tech-event'>Tech</Link>
+          </h1>
+        </div>
+      </div>
+      <div className='logo-hunt-page'>
+        {' '}
+        {/* Keeping the same class name */}
+        <h1>Cyber Siege</h1>
+        <div className='logo-hunt-content'>
+          <div className='logo-hunt-image'>
+            <img src={Cybersiege} alt='Cyber Siege' />
+            <button
+              className='register-button'
+              onClick={() => handleButtonClick('CYBER SIEGE')}
+            >
+              Register for Event
+            </button>
+          </div>
+          <div className='logo-hunt-details'>
+            {' '}
+            {/* Keeping the same class name */}
+            <h3 className='logo3'>Description</h3>
+            <p>Event: Cyber Siege - Unleash Your Cybersecurity Skills!</p>
+            <p>
+              Welcome to Cyber Siege, the ultimate test of your cybersecurity
+              prowess! This exciting event is designed to challenge and showcase
+              your skills in the dynamic world of cybersecurity. Here’s a
+              breakdown of the action-packed rounds awaiting you:
+            </p>
+            <h3 className='logo3'>Round 1: The Cyber Quiz</h3>
+            <p>Format: 20 questions</p>
+            <p>Duration: 20 minutes</p>
+            <p>
+              Details: Test your foundational knowledge with a rapid-fire quiz.
+              Answer all 20 questions within the allotted time to earn your
+              place in the next round.
+            </p>
+            <h3 className='logo3'>Round 2: The Cyber Challenge</h3>
+            <p>Format: Problem-solving task</p>
+            <p>
+              Duration: 1 hour Details: Dive into a series of beginner friendly
+              cybersecurity challenges that require keen problem-solving skills
+              and creativity. Utilize any online resources at your disposal to
+              crack the tasks. Performance will be evaluated based on the number
+              of tasks completed and the time taken.
+            </p>
+            <h3 className='logo3'>Top Participants:</h3>
+            <p>
+              Round 1: The top 25 scorers will advance to Round 2. Round 2: From
+              these 25, the top 3 will be selected based on their
+              problem-solving efficiency and task completion.
+            </p>
+            <h3 className='logo3'>Event Heads</h3>
+            <ul>
+              <li>Malav Radia - +91 9023538442</li>
+              <li>Abhishek Dhanani - +91 6354593544</li>
+              <li>Diya Patel - +91 9904315296</li>
+            </ul>
+            <h3 className='logo3'>Volunteers</h3>
+            <ul>
+              <li>Rahul Soni</li>
+              <li>Deep Patel</li>
+              <li>Manan Chodvadiya</li>
+              <li>Vishva Gohil</li>
+              <li>Rishi Ginoya</li>
+            </ul>
+            <p>
+              Gear up for a thrilling experience that tests your cybersecurity
+              knowledge and skills to their fullest. Show us your expertise and
+              rise to the top in Cyber Siege!
+            </p>
           </div>
         </div>
-        <div className="logo-hunt-page"> {/* Keeping the same class name */}
-          <h1>Cyber Siege</h1>
-          <div className="logo-hunt-content">
-            <div className="logo-hunt-image">
-              <img
-                src={Cybersiege}
-                alt="Cyber Siege"
-              />
-              <button className="register-button" onClick={() => handleButtonClick('CYBER SIEGE')}>
-                Register for Event
-              </button>
-            </div>
-            <div className="logo-hunt-details"> {/* Keeping the same class name */}
-              <h3 className='logo3'>Description</h3>
-              <p>Event Name: Cyber Siege</p>
-              <p>Number of Rounds: 2</p>
-  
-              <h3 className='logo3'>Date & Time</h3>
-              <p>Friday, 20th September 2024</p>
-              <p>Round 1: 02:30 PM to 03:00 PM (Lab-1, 2, 3)</p>
-              <p>Round 2: 03:00 PM to 04:15 PM (Lab-1, 2, 3)</p>
-  
-              <h3 className='logo3'>Round 1: Quiz Round</h3>
-              <p>Time Duration: 20 minutes</p>
-              <ul>
-                <li>Individual Participation</li>
-                <li>20 questions based on fundamentals of IT and Cyber</li>
-                <li>Computer-based quiz</li>
-              </ul>
-  
-              <h3 className='logo3'>Round 2: Challenges</h3>
-              <p>Time Duration: 1 hour</p>
-              <ul>
-                <li>Top 25 students selected from Round 1</li>
-                <li>Challenges to complete</li>
-                <li>Online resources are permitted</li>
-                <li>Tasks and completion time will be noted</li>
-              </ul>
-  
-              <h3 className='logo3'>Event Heads</h3>
-              <ul>
-                <li>Malav Radia - +91 9023538442</li>
-                <li>Abhishek Dhanani - +91 6354593544</li>
-                <li>Diya Patel - +91 9904315296</li>
-              </ul>
-  
-              <h3 className='logo3'>Volunteers</h3>
-              <ul>
-                <li>Rahul Soni</li>
-                <li>Deep Patel</li>
-                <li>Manan Chodvadiya</li>
-                <li>Vishva Gohil</li>
-                <li>Rishi Ginoya</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <Footer />
-      </>
-    );
-  };
+      </div>
+      <Footer />
+    </>
+  );
+};
 
 export default Cybersiegepage;

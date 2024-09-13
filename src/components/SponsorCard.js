@@ -4,12 +4,19 @@ import './SponsorCard.css';
 import bul from './bul.jpg';
 import car from './car.jpg';
 import hos from './san.jpg';
-import fox from './fox.jpg';
 import fin from './fin.jpg';
 import fins from './fins.png';
+import EmblaCarousel from './EmblaCarousel/index';
 
+const OPTIONS = { loop: true };
 const SponsorCard = () => {
   return (
+    // <EmblaCarousel
+    //   slides={[
+
+    //   ]}
+    //   options={OPTIONS}
+    // />
     <>
       <div className='sponsor-card'>
         <h3 className='sponsor-title'>Welcome</h3>

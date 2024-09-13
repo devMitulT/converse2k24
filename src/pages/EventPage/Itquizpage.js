@@ -1,12 +1,13 @@
 import React from 'react';
 import './LogoHuntPage.css'; // Import the CSS file for styling
 import Footer from '../../components/Footer';
-import great from "./great.png";
-import { Link,useNavigate  } from "react-router-dom";
+import great from './great.png';
+import { Link, useNavigate } from 'react-router-dom';
 import ScrollToTop from '../../components/ScrollToTop';
 import Itquiz from '../../team/Tech-poster/a4itquiz.jpg';
 
-const Itquizpage = () => { // Changed function name to ITQuizPage
+const Itquizpage = () => {
+  // Changed function name to ITQuizPage
   const navigate = useNavigate();
 
   const handleButtonClick = (event) => {
@@ -14,55 +15,43 @@ const Itquizpage = () => { // Changed function name to ITQuizPage
   };
 
   return (
-    <>    
-      <ScrollToTop/>
-      <div className="teams-section">
+    <>
+      <ScrollToTop />
+      <div className='teams-section'>
         <div className='lin'>
           <h1>
-            <Link to="/" >Home</Link>
+            <Link to='/'>Home</Link>
           </h1>
-          <img src={great} className='symb'/>
+          <img src={great} className='symb' />
           <h1>
-            <Link to="/events" >Events</Link>
+            <Link to='/events'>Events</Link>
           </h1>
-          <img src={great} className='symb'/>
+          <img src={great} className='symb' />
           <h1>
-            <Link to="/tech-event" >Tech</Link>
+            <Link to='/tech-event'>Tech</Link>
           </h1>
         </div>
-      </div>            
-      <div className="logo-hunt-page">
+      </div>
+      <div className='logo-hunt-page'>
         <h1>IT Quiz</h1>
-        <div className="logo-hunt-content">
-          <div className="logo-hunt-image">
-            <img
-              src={Itquiz}
-              alt="IT Quiz"
-            />
-            <button className="register-button" onClick={() => handleButtonClick('IT QUIZ')}>
+        <div className='logo-hunt-content'>
+          <div className='logo-hunt-image'>
+            <img src={Itquiz} alt='IT Quiz' />
+            <button
+              className='register-button'
+              onClick={() => handleButtonClick('IT QUIZ')}
+            >
               Register for Event
             </button>
           </div>
-          <div className="logo-hunt-details">
+          <div className='logo-hunt-details'>
             <h3 className='logo3'>Description</h3>
-            <p>
-              Event Name: IT Quiz
-            </p>
-            <p>
-              Date: 21 September
-            </p>
-            <p>
-              Time: 11:00 AM - 12:00 PM
-            </p>
-            <p>
-              Event Duration: 1 Hour
-            </p>
-            <p>
-              Number of Questions: 40
-            </p>
-            <p>
-              Time Limit: 30 Minutes
-            </p>
+            <p>Event Name: IT Quiz</p>
+            <p>Date: 21 September</p>
+            <p>Time: 11:00 AM - 12:00 PM</p>
+            <p>Event Duration: 1 Hour</p>
+            <p>Number of Questions: 40</p>
+            <p>Time Limit: 30 Minutes</p>
             <p>
               <strong>Venue: Room A-101</strong>
             </p>
@@ -83,16 +72,15 @@ const Itquizpage = () => { // Changed function name to ITQuizPage
               <li>Rusheel Dhandhalya</li>
               <li>Shlok Sutariya</li>
               <li>Krishna Dabhi</li>
-              <li>Vatsal Makvana</li>
+
               <li>Tanisha Agarwal</li>
             </ul>
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };
-
 
 export default Itquizpage;
