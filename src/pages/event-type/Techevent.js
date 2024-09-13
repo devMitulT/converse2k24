@@ -15,6 +15,8 @@ import pyit from './initpyit.jpg';
 import wb from './initwb.jpg';
 import aiquiz from './initaiquiz.jpg';
 
+
+
 const Techevent = () => {
     const teams = [
    

@@ -22,8 +22,8 @@ function Footer() {
             <p>Ayush Polara (+91 9924012804)</p>
             <p>Uttam Moradiya (+91 7016258764)</p>
             <p>Shreya Chopra (+91 7588331046)</p>
-            <p>Jenish Sonani (+91 7777949735)</p>
             <p>Mitarsh Savaliya (+91 75674558688)</p>
+            <p>Jenish Sonani (+91 7777949735)</p>
             <p>Harsh Maniya (+91 8128789012)</p>
             <p>Jensi Ghadiya(+91 7016954635)</p>
           </div>

@@ -1,41 +1,102 @@
 import React from 'react';
 import './SponsorCard.css';
-import bull from './bull.jpg'
-import career from './career.jpg'
-import sans from './sans.jpg'
+
+import bul from './bul.jpg';
+import car from './car.jpg';
+import hos from './san.jpg';
+import fox from './fox.jpg';
+import fin from './fin.jpg';
+import fins from './fins.png';
 
 const SponsorCard = () => {
-    return (<>
-        <div className="sponsor-card">
-            <img
-                src={career}
-                alt="Sponsor Logo"
-                className="sponsor-image"
-            />
-            <h3 className="sponsor-title">Careerline Education</h3>
-            <p className="sponsor-description"></p>
-        </div>
-        <div className="sponsor-card">
-            <img
-                src={sans}
-                alt="Sponsor Logo"
-                className="sponsor-image"
-            />
-            <h3 className="sponsor-title">House of sanskruti</h3>
-            <p className="sponsor-description"></p>
-        </div>
-        <div className="sponsor-card">
-            <img
-                src={bull}
-                alt="Sponsor Logo"
-                className="sponsor-image"
-            />
-            <h3 className="sponsor-title">Bull Rider</h3>
-            <p className="sponsor-description"> </p>
-        </div>
-       
-        </>
-    );
+  return (
+    <>
+      <div className='sponsor-card'>
+        <h3 className='sponsor-title'>Welcome</h3>
+        <h4>
+          We are proud to announce that our Converse 2k24 will be sponsored by
+        </h4>
+        <h3 className='sponsor-title'>_______________</h3>
+
+        <img
+          src={car}
+          alt='Sponsor Logo'
+          height={100}
+          width={220}
+          className='sponsor-image'
+        />
+        <h3 className='sponsor-title'>Careerline Education</h3>
+        <p className='sponsor-description'></p>
+      </div>
+      <div className='sponsor-card'>
+        <h3 className='sponsor-title'>Welcome</h3>
+        <h4>
+          We are proud to announce that our Converse 2k24 will be sponsored by
+        </h4>
+        <h3 className='sponsor-title'>_______________</h3>
+        <img
+          src={hos}
+          alt='Sponsor Logo'
+          className='sponsor-image'
+          height={120}
+          width={200}
+        />
+        <h3 className='sponsor-title'>House of sanskruti</h3>
+        <p className='sponsor-description'></p>
+      </div>
+      <div className='sponsor-card'>
+        <h3 className='sponsor-title'>Welcome</h3>
+        <h4>
+          We are proud to announce that our Converse 2k24 will be sponsored by
+        </h4>
+        <h3 className='sponsor-title'>_______________</h3>
+
+        <img
+          src={bul}
+          alt='Sponsor Logo'
+          height={100}
+          width={220}
+          className='sponsor-image'
+        />
+        <h3 className='sponsor-title'>Bull Rider</h3>
+        <p className='sponsor-description'> </p>
+      </div>
+      <div className='sponsor-card'>
+        <h3 className='sponsor-title'>Welcome</h3>
+        <h4>
+          We are proud to announce that our Converse 2k24 will be sponsored by
+        </h4>
+        <h3 className='sponsor-title'>_______________</h3>
+
+        <img
+          src={fin}
+          alt='Sponsor Logo'
+          height={100}
+          width={220}
+          className='sponsor-image'
+        />
+        <h3 className='sponsor-title'>Infinity Financial</h3>
+        <p className='sponsor-description'> </p>
+      </div>
+      <div className='sponsor-card'>
+        <h3 className='sponsor-title'>Welcome</h3>
+        <h4>
+          We are proud to announce that our Converse 2k24 will be sponsored by
+        </h4>
+        <h3 className='sponsor-title'>_______________</h3>
+
+        <img
+          src={fins}
+          alt='Sponsor Logo'
+          height={150}
+          width={220}
+          className='sponsor-image1'
+        />
+        <h3 className='sponsor-title'>Perfum House</h3>
+        <p className='sponsor-description'> </p>
+      </div>
+    </>
+  );
 };
 
 export default SponsorCard;

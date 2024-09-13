@@ -6,6 +6,11 @@ import Footer from '../components/Footer';
 import ScrollToTop from '../components/ScrollToTop';
 import SponsorCard from '../components/SponsorCard';
 
+import PeopleOutlineOutlinedIcon from '@mui/icons-material/PeopleOutlineOutlined';
+import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
+import EditCalendarOutlinedIcon from '@mui/icons-material/EditCalendarOutlined';
+import CodeOutlinedIcon from '@mui/icons-material/CodeOutlined';
+
 const HomePage = () => {
   const teams = [
     {
@@ -31,25 +36,34 @@ const HomePage = () => {
     <>
       <Header />
       <ScrollToTop />
-
       <div className='hompage'>
         <div className='conten'>
           <div className='explor-section'>
             <p className='tilaks'>EXPLORE THE FEST</p>
-
             <ul className='menu'>
-              
               <li>
-                <Link to='/events'>EVENTS</Link>
+                <Link to='/events' className='button-style'>
+                  <CodeOutlinedIcon sx={{ fontSize: 40 }} />
+                  EVENTS
+                </Link>
               </li>
               <li>
-                <Link to='/schedule'>SCHEDULE</Link>
+                <Link to='/schedule' className='button-style'>
+                  <EditCalendarOutlinedIcon sx={{ fontSize: 40 }} />
+                  SCHEDULE
+                </Link>
               </li>
               <li>
-                <Link to='/team'>TEAMS</Link>
+                <Link to='/team' className='button-style'>
+                  <PeopleOutlineOutlinedIcon sx={{ fontSize: 40 }} />
+                  TEAMS
+                </Link>
               </li>
               <li>
-                <Link to='/aboutpage'>ABOUT</Link>
+                <Link to='/aboutpage' className='button-style'>
+                  <InfoOutlinedIcon sx={{ fontSize: 40 }} />
+                  ABOUT
+                </Link>
               </li>
               {/* <li><Link to="/sponsors" >SPONSORS</Link></li> */}
             </ul>

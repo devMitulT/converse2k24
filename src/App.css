@@ -1859,6 +1859,10 @@ member .converse {
 
 .menu {
   font-size: 1.8em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .menu li {
@@ -1997,6 +2001,8 @@ member .converse {
 .button-style {
   /* From https://css.glass */
   display: flex;
+  align-items: center;
+  gap: 16px;
   justify-content: center;
   width: 246px;
   background: rgba(134, 134, 134, 0.32);
