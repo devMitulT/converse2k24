@@ -45,6 +45,12 @@ const Aiquizpage = () => {
               <h3 className='logo3'>Date & Time</h3>
               <p>Friday, 20th September 2024</p>
               <p>01:30 PM to 02:15 PM (Lab-1, 2, 3)</p>
+
+              <h3 class="logo3">Faculty Coordinator</h3>
+              <ul>
+<li>Prof. Mukesh Patel</li>
+<li>Prof. Palak Desai</li>
+</ul>
   
               <h3 className='logo3'>Event Heads</h3>
               <ul>

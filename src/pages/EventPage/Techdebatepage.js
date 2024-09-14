@@ -118,6 +118,12 @@ const Techdebatepage = () => {
               <li>Mobile phones are strictly prohibited during debates</li>
             </ul>
 
+            <h3 class="logo3">Faculty Coordinator</h3>
+              <ul>
+<li>Dr.Dhruti Sharma</li>
+<li>Dr. Mitali Desai</li>
+</ul>
+
             <h3 className='logo3'>Event Heads</h3>
             <ul>
               <li>Shruti Desai</li>

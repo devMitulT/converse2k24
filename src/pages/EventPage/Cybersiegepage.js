@@ -78,6 +78,11 @@ const Cybersiegepage = () => {
               these 25, the top 3 will be selected based on their
               problem-solving efficiency and task completion.
             </p>
+            <h3 class="logo3">Faculty Coordinator</h3>
+              <ul>
+<li>Dr.Ankit Khawar</li>
+<li>Dr.Tushar Gohil</li>
+</ul>
             <h3 className='logo3'>Event Heads</h3>
             <ul>
               <li>Malav Radia - +91 9023538442</li>

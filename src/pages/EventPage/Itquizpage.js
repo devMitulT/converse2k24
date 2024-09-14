@@ -61,6 +61,10 @@ const Itquizpage = () => {
               <li>Mobile phones are strictly prohibited</li>
               <li>Single round</li>
             </ul>
+            <h3 class="logo3">Faculty Coordinator</h3>
+<p>Dr. Mita Parikh</p>
+<p>Prof. Tushar Gohil</p>
+<p>Prof. Ashish Kharvar</p>
             <h3 className='logo3'>Event Heads</h3>
             <ul>
               <li>Tisha Chokshi - +91 96645 71921</li>

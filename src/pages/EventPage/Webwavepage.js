@@ -46,6 +46,17 @@ const Webwavepage = () => {
               <p>Friday, 20th September 2024</p>
               <p>03:00 PM to 04:15 PM (Lab-4, 5)</p>
   
+
+<p>The event is open to students, professionals, or anyone with an interest in web development and design, depending on the target audience.
+
+<p>~Participants can register individually.</p>
+<p>~Registration may be done online before the event or on the spot, depending on the event's structure.</p>
+<p>~Participants will develop a functional web application or website within a specified time frame.</p>
+<p>
+~Focus on the user interface and user experience aspects of web design.
+  
+  </p>~All work submitted must be original. Plagiarism or use of pre-built templates without customization will result in disqualification.</p>
+
               <h3 className='logo3'>Rules:</h3>
               <ul>
                 <li>Individual participation</li>
@@ -55,6 +66,12 @@ const Webwavepage = () => {
                 <li>Focus on UI/UX</li>
                 <li>Visually appealing design with good colors, fonts, and layout</li>
               </ul>
+
+              <h3 class="logo3">Faculty Coordinator</h3>
+              <ul>
+<li>Prof.Mitul Patel</li>
+<li>Prof.Vivek Chapaneria</li>
+</ul>
   
               <h3 className='logo3'>Event Heads</h3>
               <ul>

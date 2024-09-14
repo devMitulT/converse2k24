@@ -54,6 +54,16 @@ const Pyitpage = () => {
               <li>Round 3: Personal Interview (60 minutes)</li>
               <li>Participants must bring their resumes for round 3.</li>
             </ul>
+
+            <h3 className='logo3'>Faculty Coordinator</h3>
+            <ul>
+              <li>
+              <p>Prof. Mukesh Patel</p>
+
+              </li>
+ 
+<p>Prof. Vivaksha Jariwala</p>
+<li></li>           </ul>
   
             <h3 className='logo3'>Event Heads</h3>
             <ul>

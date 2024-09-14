@@ -54,6 +54,13 @@ const Codathonpage = () => {
               <li>Round 2: Code Debugging (45 minutes)</li>
               <li>Round 3: Code Development (60 minutes)</li>
             </ul>
+
+            <h3 class="logo3">Faculty Coordinator</h3>
+              <ul>
+<li>Prof. Ashish Kharvar</li>
+<li>Prof. Apurva Mandalyawala</li>
+<li>Prof. Mitul Patel</li>
+</ul>
   
             <h3 className='logo3'>Event Heads</h3>
             <ul>

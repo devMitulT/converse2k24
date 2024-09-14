@@ -76,7 +76,7 @@ const LogoHuntPage = () => {
           <h3 className='logo3'>Faculty Coordinators</h3>
           <ul>
             <li>Prof. Bhumika Patel</li>
-            <li>Prof. Palak Patel</li>
+            <li>Prof. Palak Desai</li>
           </ul>
           <h3 className='logo3'>Event Heads</h3>
           <ul>
