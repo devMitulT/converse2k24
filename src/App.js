@@ -26,6 +26,7 @@ import Webwave from './pages/TeamMember/Webwave';
 import Techevent from './pages/event-type/Techevent';
 import Nontech from './pages/event-type/Nontech';
 import AboutPage from './pages/AboutPage';
+import Webteam from "./pages/TeamMember/Webteam";
 
 import SchedulePage from './pages/SchedulePage';
 import LogoHuntPage from './pages/EventPage/LogoHuntPage';
@@ -66,6 +67,8 @@ function App() {
     <Route path="graphics-team" element={<Graphics/>}/>
     <Route path="decoration-team" element={<Decoration/>}/>
     <Route path="marketing-team" element={<Marketing/>}/>
+    <Route path="tech-team" element={<Webteam/>}/>
+
     
     <Route path="register" element={<Register/>}/>
     <Route path="thankyou" element={<Thankyou/>}/>

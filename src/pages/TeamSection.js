@@ -21,6 +21,7 @@ import techdebatei from '../pages/event-type/inittech.jpg';
 import cybersiegei from '../pages/event-type/initcyber.jpg';
 import webwavei from '../pages/event-type/initwb.jpg';
 import aiquizi from '../pages/event-type/initaiquiz.jpg';
+import webteam from "../pages/event-type/webteamicon.jpg"
 
 const TeamsSection = () => {
     const teams = [
@@ -29,6 +30,8 @@ const TeamsSection = () => {
          { title: 'Non-Tech', imageSrc:nontechi , link: '/nontech-team' },
          { title: 'Decoration ', imageSrc:decorationi, link: '/decoration-team' },
         { title: 'Marketing ', imageSrc:marketingi, link: '/marketing-team' },
+        { title: 'Web Team', imageSrc:webteam , link: '/tech-team' },
+
         { title: 'Logo Hunt', imageSrc:logohunti , link: '/logohunt-team' },
         { title: 'IT Quiz', imageSrc: itquizi, link: '/itquiz-team' },
         { title: 'Bug Buzz', imageSrc:bugbuzzi , link: '/bugbuzz-team' },
@@ -39,6 +42,7 @@ const TeamsSection = () => {
         { title: 'Cyber Siege', imageSrc: cybersiegei, link: '/cybersiege-team' },
         { title: 'Web Wave', imageSrc:webwavei, link: '/webwave-team' },
         { title: 'AI Quiz', imageSrc:aiquizi , link: '/aiquiz-team' },
+
     ];
 
     return (

@@ -42,7 +42,7 @@ const AboutPage = () => {
       <section className="section">
         <h2 className="subtitle"> A Fusion of Tech and Artistry</h2>
         <p>
-        Converse 2K24 is far from your average technical festival; it's an inspiring blend of the latest in technology and limitless creativity. Featuring an impressive lineup of 9 technical and 7 non-technical events, this festival is a vibrant stage for the sharpest minds and the most inventive spirits. Immerse yourself in the realm of IT, or let your creativity shine in diverse non-technical areas like art, sports, and entrepreneurship.
+        Converse 2K24 is far from your average technical festival; it's an inspiring blend of the latest in technology and limitless creativity. Featuring an impressive lineup of 10 technical and 8 non-technical events, this festival is a vibrant stage for the sharpest minds and the most inventive spirits. Immerse yourself in the realm of IT, or let your creativity shine in diverse non-technical areas like art, sports, and entrepreneurship.
         </p>
       </section>
 
