@@ -95,7 +95,7 @@ function Itquiz() {
             <p>Tanisha Agarwal </p>
           </div>
           <div className='image-card'>
-            <img src={PreshthaBodar} alt='Coordinator 4' className='imagev' />
+            <img src={avtar} alt='Coordinator 4' className='imagev' />
             <p> Shlok Sutariya</p>
           </div>
           <div className='image-card'>

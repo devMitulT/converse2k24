@@ -28,12 +28,12 @@ const SchedulePage = () => {
     {
       day: 'Saturday, 21st September, 2024',
       events: [
-        { time: '9:00 am - 10:00 am', event: 'Logo Hunt', location: 'Lab -1,2,3' },
+        { time: '9:00 am - 9:45 am', event: 'Ai-Memes (Round 1)', location: 'Lab -1,2,3' },
         { time: '10:00 am - 11:00 am', event: 'Py-IT Round 3', location: 'Lab 5' },
         { time: '10:00 am - 11:00 am', event: 'Tech Tussle ROUND 2', location: 'NJ Seminar Hall' },
-        { time: '11:15 am - 12:00 pm', event: 'AI-Memes (Round 1)', location: 'Lab 1,2,3' },
-        { time: '12:00 pm - 1:00 pm', event: 'AI-Memes (Round 2)', location: 'Lab 1,2,3' },
-        { time: '12:00 pm - 1:00 pm', event: 'Bug Buzz (Round 1 and Round 2)', location: 'Lab 4,5' },
+        { time: '11:15 am - 12:15 pm', event: 'Logo Hunt', location: 'Lab 1,2,3' },
+        { time: '12:15 pm - 1:15 pm', event: 'AI-Memes (Round 2)', location: 'Lab 1,2,3' },
+        { time: '12:15 pm - 1:15 pm', event: 'Bug Buzz (Round 1 and Round 2)', location: 'Lab 4,5' },
         { time: '1:00 pm - 2:00 pm', event: 'Lunch Break', location: '' },
         { time: '2:30 pm - 4:00 pm', event: 'Valedictory, Prize & Certificate distribution', location: '' },
       ]

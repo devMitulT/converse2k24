@@ -12,7 +12,9 @@ import KarunaPatel from '../../team/faculty/Karuna.png';
 import ForamPatel from '../../team/faculty/Foram.png';
 import DhyaniJoshi from '../../team/faculty/Dhyani.png';
 import avtar from '../../team/avtar/maleA.png';
-
+import krish from "../../team/bugbuzz/Bug Buzz_Vanani Krish.png"
+import krishna from "../../team/bugbuzz/Bugbuzz_KrishnaDesai.png"
+import akshat from "../../team/bugbuzz/BugBuzz_Akshatmoradiya.jpg"
 
 function Bugbuzz() {
     return (<>
@@ -61,11 +63,11 @@ function Bugbuzz() {
                     <p>Sahil Sojitra</p>
                 </div>
                 <div className="image-card">
-                    <img src={avtar} alt="Coordinator 2" className="imageh" />
+                    <img src={krish} alt="Coordinator 2" className="imageh" />
                     <p>Krish Vanani</p>
                 </div>
                 <div className="image-card">
-                    <img src={avtar} alt="Coordinator 3" className="imageh" />
+                    <img src={krishna} alt="Coordinator 3" className="imageh" />
                     <p>Krishna Desai</p>
                 </div>
               
@@ -95,6 +97,10 @@ function Bugbuzz() {
                 <div className="image-card">
                     <img src={avtar} alt="Coordinator 5" className="imagev" />
                     <p>Zenith Dayani</p>
+                </div>
+                <div className="image-card">
+                    <img src={akshat} alt="Coordinator 6" className="imagev" />
+                    <p>Akshat Moradiya</p>
                 </div>
               
               

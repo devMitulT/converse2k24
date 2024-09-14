@@ -41,7 +41,7 @@ function Cybersiege() {
                 </div>
                 <div className="image-card">
                     <img src={AnkitK} alt="Coordinator 3" className="imagef" />
-                    <p>Dr. Ankit Khawar</p>
+                    <p>Dr. Ankit Kharwar</p>
                 </div>
                 
               

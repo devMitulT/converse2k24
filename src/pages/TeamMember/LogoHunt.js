@@ -42,7 +42,7 @@ function LogoHunt() {
                 </div>
                 <div className="image-card">
                     <img src={PalakPatel} alt="Coordinator 2" className="imagef" />
-                    <p>Prof. Palak Patel</p>
+                    <p>Prof. Palak Desai</p>
                 </div>
                
               
