@@ -44,7 +44,7 @@ const HomePage = () => {
               <li>
                 <Link to='/events' className='button-style'>
                   <CodeOutlinedIcon sx={{ fontSize: 40 }} />
-                  EVENTS
+                  EVENT INFO
                 </Link>
               </li>
               <li>
@@ -62,7 +62,7 @@ const HomePage = () => {
               <li>
                 <Link to='/aboutpage' className='button-style'>
                   <InfoOutlinedIcon sx={{ fontSize: 40 }} />
-                  ABOUT
+                  ABOUT CONVERSE
                 </Link>
               </li>
               {/* <li><Link to="/sponsors" >SPONSORS</Link></li> */}
