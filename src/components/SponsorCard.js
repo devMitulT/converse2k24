@@ -5,7 +5,7 @@ import bul from './bul.jpg';
 import car from './car.jpg';
 import hos from './san.jpg';
 
-import kashyap from './kashyap.jpg';
+import kashyap from './kashyap.png';
 
 import fin from './fin.jpg';
 import fins from './fins.png';
