@@ -42,7 +42,7 @@ const Aimemespage = () => {
     <p><strong>Objective</strong>: Participants will create memes based on IT, AI, and ML concepts.</p>
     <p><strong>Total Duration</strong>: 1.15 hours</p>
     <p><strong>Rounds</strong>: 2 rounds</p>
-    <p><strong>Time Duration of Individual Round</strong>:
+    <p><strong>Time Duration of Individual Round : </strong>
         <ul>
             <li><strong>Round 1</strong>: 45 minutes</li>
             <li><strong>Round 2</strong>: 30 minutes</li>
