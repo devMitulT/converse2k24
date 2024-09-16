@@ -18,6 +18,27 @@ const SponsorCard = () => {
     //   options={OPTIONS}
     // />
     <>
+
+
+<div className='sponsor-card'>
+        <h3 className='sponsor-title'>Welcome</h3>
+        <h4>
+          We are proud to announce that our Converse 2k24 will be sponsored by
+        </h4>
+        <h3 className='sponsor-title'>_______________</h3>
+
+        <img
+          src={kashyap}
+          alt='Sponsor Logo'
+          height={124}
+          width={220}
+          className='sponsor-image'
+        />
+        <h3 className='sponsor-title'>Kashyap Solar</h3>
+        <p className='sponsor-description'<a href="https://kashyap.in/"> Visit Our Website for more Info.. </a></p>
+      </div>
+
+
       <div className='sponsor-card'>
         <h3 className='sponsor-title'>Welcome</h3>
         <h4>
