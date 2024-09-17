@@ -9,7 +9,7 @@ import kashyap from './kashyap.png';
 
 import fin from './fin.jpg';
 import fins from './fins.png';
-import EmblaCarousel from './EmblaCarousel/index';
+// import EmblaCarousel from './EmblaCarousel/index';
 
 const OPTIONS = { loop: true };
 const SponsorCard = () => {
@@ -23,7 +23,7 @@ const SponsorCard = () => {
     <>
 
 
-<div className='sponsor-card'>
+    <div className='sponsor-card'>
         <h3 className='sponsor-title'>Welcome</h3>
         <h4>
           We are proud to announce that our Converse 2k24 will be sponsored by
@@ -38,8 +38,8 @@ const SponsorCard = () => {
           className='sponsor-image'
         />
         <h3 className='sponsor-title'>Kashyap Solar</h3>
-        <p className='sponsor-description'<a href="https://kashyap.in/"> Visit Our Website for more Info.. </a></p>
-      </div>
+        <p className='sponsor-description'>  Visit Our <a href="https://kashyap.in/"> Website</a> for more Info.. </p>
+    </div>
 
 
       <div className='sponsor-card'>
