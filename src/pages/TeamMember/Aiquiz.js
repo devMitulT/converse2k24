@@ -86,7 +86,7 @@ function Aiquiz() {
                 </div>
                 <div className="image-card">
                     <img src={KhushiDholariya} alt="Coordinator 4" className="imagev" />
-                    <p>Hiya Vasani</p>
+                    <p>Khushi Dholariya</p>
                 </div>
                 <div className="image-card">
                     <img src={JayPrajapati} alt="Coordinator 5" className="imagev" />
